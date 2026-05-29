@@ -1,0 +1,11 @@
+.next
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env*.local
+site
+ECOS DO OCEANO BUSINESS-*.png
+Portfolio ecosoceanobusiness.pdf
+prd.md
+public/Portfolio-ECOS-DO-OCEANO-BUSINESS.pdf

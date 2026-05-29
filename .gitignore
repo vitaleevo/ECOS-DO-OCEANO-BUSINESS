@@ -1,20 +1,15 @@
 # Dependencies
 node_modules/
-site/node_modules/
 
 # Next.js build output
 .next/
-site/.next/
 out/
-site/out/
+next-env.d.ts
 
 # Local environment
 .env
 .env.*
 !.env.example
-site/.env
-site/.env.*
-!site/.env.example
 
 # Logs
 npm-debug.log*
@@ -28,10 +23,12 @@ Thumbs.db
 
 # Vercel local state
 .vercel/
-site/.vercel/
 
 # Local reference/source materials not needed for deploy
 /ECOS DO OCEANO BUSINESS-*.png
 /Portfolio ecosoceanobusiness.pdf
 /prd.md
-/site/public/Portfolio-ECOS-DO-OCEANO-BUSINESS.pdf
+/public/Portfolio-ECOS-DO-OCEANO-BUSINESS.pdf
+
+# Previous local build folder, kept only on this machine after moving the app to root
+/site/
